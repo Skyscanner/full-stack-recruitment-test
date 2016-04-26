@@ -1,0 +1,16 @@
+import React from 'react';
+// css module use - import the scss file as an object, assign dynamic classnames to elements
+import {header, logo, logoText} from './TopNav.scss';
+
+const TopNav = () => (
+  <header className={header}>
+    <a href="/">
+      <span className={logoText}>Skyscanner</span>
+      <span className={logo} />
+    </a>
+     // TODO navigation links
+     // TODO burger menu icon
+  </header>
+);
+
+export default TopNav;

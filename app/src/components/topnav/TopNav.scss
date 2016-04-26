@@ -1,0 +1,22 @@
+@import "~bpk-mixins";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $bpk-spacing-sm $bpk-spacing-sm;
+
+  background-color: $bpk-color-white;
+  box-shadow: 0 0 10px 0 $bpk-color-gray-300;
+}
+
+.logo {
+  @include bpk-logo-inline(inline-blue-800);
+  height: 32px;
+  width: 168px;
+  vertical-align: middle;
+}
+
+.logoText {
+  @include bpk-visually-hidden;
+}
