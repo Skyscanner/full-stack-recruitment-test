@@ -72,7 +72,7 @@ module.exports = {
       {
         test: /\.scss$/,
         include: [paths.appSrc, paths.appNodeModules],
-        loader:  ExtractTextPlugin.extract('style', 'css?modules&localIdentName=[local]&-autoprefixer!postcss!sass')
+        loader:  ExtractTextPlugin.extract('style', 'css?-autoprefixer!postcss!sass')
       },
       {
         test: /\.json$/,

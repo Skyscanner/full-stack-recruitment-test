@@ -63,7 +63,7 @@ module.exports = {
       {
         test: /.*\.scss$/,
         include: [paths.appSrc, paths.appNodeModules],
-        loader: 'style!css?modules&localIdentName=[local]!postcss!sass'
+        loader: 'style!css!postcss!sass'
       },
       {
         test: /\.json$/,

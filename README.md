@@ -1,4 +1,4 @@
-# Skyscanner Frontend Recruitment test
+t# Skyscanner Frontend Recruitment test
 
 Thanks for taking the time to do our frontend coding test. The challenge has two parts:
 
@@ -64,7 +64,7 @@ To run it:
 
 - run `npm start` for the development build ([http://localhost:3000](http://localhost:3000))
 
-We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at, along with css modules -- see the [`TopNav`](./app/src/components/topnav/TopNav.js) component for example use.
+We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`TopNav`](./app/src/components/topnav/TopNav.js) component for example use.
 
 The webpack dev server is setup to proxy local requests going to `/apiservices/*` to [our API](#our-api). Use a relative url for requests.
 
