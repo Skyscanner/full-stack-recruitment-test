@@ -8,8 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <TopNav/>
+        // TODO header
+        // TODO placeholder controls
         // TODO results component
-        // TODO footer
       </div>
     );
   }
