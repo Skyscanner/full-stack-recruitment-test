@@ -51,13 +51,13 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'eslint',
-        include: [paths.appSrc, BACKPACK]
+        include: paths.appSrc
       }
     ],
     loaders: [
       {
         test: /\.js$/,
-        include: paths.appSrc,
+        include: [paths.appSrc, BACKPACK],
         loader: 'babel',
         query: require('./babel.prod')
       },
