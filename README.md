@@ -40,6 +40,8 @@ We'd like you to use our Flights 'Living Pricing' service, using your API key, t
 
 Our [API documentation is available here](https://github.com/Skyscanner/api-documentation/tree/master/live_flights_pricing) and a [test harness is provided](http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingQuickStart) for you to try queries out.
 
+**NB:** The api doesn't currently support CORS, so we've set up some proxying in the webpack dev server to make things easier. Please use relative urls starting with `/apiservices` to talk to our API.
+
 You can use the Skyscanner `sky` location schema, and the `EDI-sky` and `LOND-sky` placenames in your query.
 
 The API will return certain things you will be interested in:
@@ -66,7 +68,7 @@ To run it:
 
 We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`TopNav`](./app/src/components/topnav/TopNav.js) component for example use.
 
-The webpack dev server is setup to proxy local requests going to `/apiservices/*` to [our API](#our-api). Use a relative url for requests.
+
 
 ## Follow-up Questions
 
