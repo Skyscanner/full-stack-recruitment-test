@@ -151,8 +151,8 @@ function runDevServer(port) {
       ignored: /node_modules/
     },
     proxy: {
-      '/apiservices*': {
-        target: 'http://partners.api.skyscanner.net',
+      '/api*': {
+        target: 'http://localhost:4000',
         changeOrigin: true
       }
     }

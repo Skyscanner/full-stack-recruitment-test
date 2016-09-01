@@ -30,8 +30,10 @@
     "file-loader": "0.9.0",
     "filesize": "3.3.0",
     "fs-extra": "0.30.0",
+    "global-tunnel": "^1.2.0",
     "gzip-size": "3.0.0",
     "html-webpack-plugin": "2.22.0",
+    "http-proxy-agent": "^1.0.0",
     "json-loader": "0.5.4",
     "node-sass": "^3.8.0",
     "opn": "4.0.2",
@@ -43,21 +45,24 @@
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
     "webpack": "1.13.1",
-    "webpack-dev-server": "1.14.1",
-    "whatwg-fetch": "1.0.0"
+    "webpack-dev-server": "1.14.1"
   },
   "dependencies": {
     "bpk-mixins": "^1.2.0",
     "bpk-stylesheets": "0.0.18",
     "bpk-tokens": "^8.2.0",
+    "es6-promise": "^3.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.15.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   },
   "scripts": {
-    "start": "node ./scripts/start.js",
-    "build": "node ./scripts/build.js"
+    "client": "cd client && node ./scripts/start.js",
+    "build": "cd client && node ./scripts/build.js",
+    "server": "cd server && node src/server.js"
   },
   "eslintConfig": {
-    "extends": "./config/eslint.js"
+    "extends": "./eslint.js"
   }
 }
