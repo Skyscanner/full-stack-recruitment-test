@@ -22,6 +22,9 @@ class App extends Component {
 console.log('fetching results from server...');
 
 fetch('http://localhost:4000/api/search')
+.then((response) => {
+  return response.json();
+})
 .then((results) => {
   console.log('TODO: something with these results:');
   console.log(results);

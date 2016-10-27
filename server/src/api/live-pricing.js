@@ -10,6 +10,8 @@ const maxRetries = 3;
 const maxPollTime = 15 * 1000;
 const pollDelay = 1000;
 
+let cachedData = {};
+
 /**
   Rough implementation of live pricing api client, as per
   http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingList
@@ -17,7 +19,7 @@ const pollDelay = 1000;
 const livePricing = {
   api: {
     createSession: (params) => {
-      return fetch(pricingUrl, {
+      return fetch(pricingUrl + `?apikey=${config.apiKey}`, {
         method: 'POST',
         body: sessionParams(params),
         credentials: 'include',
@@ -33,7 +35,7 @@ const livePricing = {
       })
     },
     pollSession: (creds) => {
-      return fetch(pricingUrl + `/${creds.sessionKey}?apiKey=${creds.apiKey}`, {
+      return fetch(pricingUrl + `/${creds.sessionKey}?apiKey=${config.apiKey}`, {
         method: 'GET',
         // uncomment if you'd like to use a development proxy (e.g. Charles or Fiddler)
         // agent: new HttpProxyAgent({
@@ -51,12 +53,19 @@ function createSession (params) {
   return new Promise((resolve, reject) => {
     livePricing.api.createSession(params)
       .then((response) => {
+        if (response.status !== 201) {
+          console.error(response.status, 'something went wrong...')
+          return response.json()
+            .then(console.error);
+        } else {
+          // session created
          _.delay(() => {
-          resolve({
-            location: response.headers.get('location'),
-            response: response.json()
-          });
-        }, pollDelay);
+            resolve({
+              location: response.headers.get('location'),
+              response: response.json()
+            });
+          }, pollDelay);
+         }
 
       })
       .catch(reject);
@@ -72,7 +81,8 @@ function startPolling (session) {
   return new Promise((resolve, reject) => {
     // encapsulation of polling state to pass around
     const pollState = {
-      creds: { apiKey: config.apiKey, sessionKey: sessionKey },
+      creds: { sessionKey: sessionKey },
+      finished: false,
       onFinished: resolve,
       onError: reject,
       timedOut: false,
@@ -98,6 +108,10 @@ function startPolling (session) {
 }
 
 function poll (state) {
+  if (state.finished) {
+    return;
+  }
+
   // auto-repoll if nothing happens for a while
   const backupTimer = setTimeout(() => {
     state.repoll();
@@ -108,17 +122,26 @@ function poll (state) {
   livePricing.api.pollSession(state.creds)
     .then((response) => {
       clearTimeout(backupTimer);
+
+      if (response.status === 304) {
+        return cachedData;
+      }
       return response.json();
     })
     .then((data) => {
+      cachedData = data;
       state.success(data);
     })
     .catch(state.err);
 }
 
 function pollSuccess (state, data) {
+  if (state.finished) {
+    return;
+  }
   if (data.Status === 'UpdatesComplete' || state.timedOut) {
     console.log('polling complete');
+    state.finished = true;
     return state.onFinished(data);
   }
   state.repoll();

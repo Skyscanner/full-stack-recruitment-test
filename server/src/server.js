@@ -27,6 +27,7 @@ app.get('/api/search', (req, res) => {
 
   api.livePricing.search({
     // TODO client to provide params
+    // check in api docs what client should provide
   })
   .then((results) => {
     // TODO - a better format for displaying results to the client
