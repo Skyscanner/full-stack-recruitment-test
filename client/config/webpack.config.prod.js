@@ -71,7 +71,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        include: [paths.appSrc, paths.appNodeModules],
+        include: [paths.appSrc, paths.appNodeModules, BACKPACK],
         loader:  ExtractTextPlugin.extract('style', 'css?-autoprefixer!postcss!sass')
       },
       {

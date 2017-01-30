@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         test: /.*\.scss$/,
-        include: [paths.appSrc, paths.appNodeModules],
+        include: [paths.appSrc, paths.appNodeModules, BACKPACK],
         loader: 'style!css!postcss!sass'
       },
       {
