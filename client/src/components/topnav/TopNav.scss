@@ -11,9 +11,6 @@
 }
 
 .logo {
-  @include bpk-logo-inline(inline-blue-800);
-  height: 32px;
-  width: 168px;
   vertical-align: middle;
 }
 
