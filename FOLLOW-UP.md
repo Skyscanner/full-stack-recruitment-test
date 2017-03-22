@@ -10,7 +10,7 @@
 
 # General:
 
-### Q) How long did you spend on the test?
+### Q) How long, in hours, did you spend on the test?
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
