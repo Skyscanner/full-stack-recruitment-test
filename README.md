@@ -60,7 +60,7 @@ The [`server.js`](./server/src/server.js) file starts an [Express](https://expre
 
 **NB:** If you'd prefer not to use Node, that's fine. Feel free to copy from it, or roll your own.
 
-The underlying Skyscanner [API documentation is available here](https://github.com/Skyscanner/api-documentation/tree/master/live_flights_pricing) and a [test harness is provided](http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingQuickStart) for you to try queries out.
+The underlying Skyscanner [API documentation is available here](https://skyscanner.github.io/slate/#flights-live-prices) and a [test harness is provided](http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingQuickStart) for you to try queries out.
 
 You can use the Skyscanner `sky` location schema, and the `EDI-sky` and `LOND-sky` placenames in your query.
 
