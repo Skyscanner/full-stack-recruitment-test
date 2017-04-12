@@ -32,7 +32,7 @@ We've provided a [design](./designs/) for small-screens (480px). Don't worry abo
 
 Don't worry about implementing menu functionality or sorting/filtering/alerting - these controls can be display-only.
 
-The design shows a look and feel defined in our in-progress [styleguide](http://backpack.prod.aws.skyscnr.com/docs). Feel free to import our [bpk- npm components](https://www.npmjs.com/search?q=bpk-) into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](http://backpack.prod.aws.skyscnr.com/sassdoc/) that may help.
+The design shows a look and feel defined in our in-progress [styleguide](http://backpack.prod.aws.skyscnr.com/). Feel free to import our [bpk- npm components](https://www.npmjs.com/search?q=bpk-) into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](http://backpack.prod.aws.skyscnr.com/sassdoc/) that may help.
 
 **NB:** You don't have to use our styleguide or our components -- picking colours from the image and rolling your own css to save time is absolutely fine.
 
