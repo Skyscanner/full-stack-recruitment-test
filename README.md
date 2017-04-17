@@ -56,7 +56,9 @@ We're hitting a real Skyscanner API in this test, and have provided a basic - bu
 
 The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a couple of routes. To run the server:
 
-- `APIKEY=<key> npm run server` from the command line, it listens at [http://localhost:4000](http://localhost:4000)
+- `APIKEY=<key> npm run server` in your terminal; it listens at [http://localhost:4000](http://localhost:4000)
+
+- (If running on Windows, do `set APIKEY=<key> && npm run server` in the command prompt)
 
 **NB:** If you'd prefer not to use Node, that's fine. Feel free to copy from it, or roll your own.
 
