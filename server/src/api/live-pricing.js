@@ -14,7 +14,7 @@ let cachedData = {};
 
 /**
   Rough implementation of live pricing api client, as per
-  http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingList
+  https://skyscanner.github.io/slate/#api-documentation
 */
 const livePricing = {
   api: {
