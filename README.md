@@ -28,7 +28,7 @@ Feel free to spend as much or as little time as you'd like, as long as the follo
 
 ## Design
 
-We've provided a [design](./designs/) for small-screens (480px). Don't worry about tackling larger breakpoints.
+We've provided a [design](./designs/) for small-screens (480px). Don't worry about tackling larger breakpoints, but **please make sure your solution looks good at 480px in portrait orientation**.
 
 Don't worry about implementing menu functionality or sorting/filtering/alerting - these controls can be display-only.
 
