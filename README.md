@@ -1,4 +1,4 @@
-# Skyscanner Full-Stack Recruitment test
+# Skyscanner full-stack recruitment test
 
 Thanks for taking the time to do our frontend / full-stack coding test. The challenge has two parts:
 
@@ -32,7 +32,7 @@ We've provided a [design](./designs/) for small-screens (480px). Don't worry abo
 
 Don't worry about implementing menu functionality or sorting/filtering/alerting - these controls can be display-only.
 
-The design shows a look and feel defined in our [styleguide](http://backpack.prod.aws.skyscnr.com/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](http://backpack.prod.aws.skyscnr.com/sassdoc/) that may help.
+The design shows a look and feel defined in our [styleguide](https://backpack.github.io/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](https://backpack.github.io/sassdoc/) that may help.
 
 **NB:** You don't have to use our styleguide or our components -- picking colours from the image and rolling your own css to save time is absolutely fine.
 
@@ -42,13 +42,13 @@ For the airline logos, try the favicon size per code: e.g. https://logos.skyscnr
 
 We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever frontend libraries you feel comfortable with.
 
-We've set you up with a build based on Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app). To run the client:
+We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app). To run the client:
 
 - `npm install` (once)
 
 - `npm run client` to start the client development build at [http://localhost:3000](http://localhost:3000)
 
-We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`TopNav`](./client/src/components/topnav/TopNav.js) component for example use.
+We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
 ## API implementation
 
