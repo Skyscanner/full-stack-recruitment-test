@@ -90,7 +90,7 @@ Your key will be rate-limited to ~5 queries per minute.
 
 * Please submit your program by sending a zip file to your Skyscanner contact.
 
-* The zip file should be named {yourname}.zip, and should itself contain the frontend-recruitment-test project folder with your submission.
+* The zip file should be named {yourname}.zip, and should itself contain the full-stack-recruitment-test project folder with your submission.
 
 * The zip file should contain the [FOLLOW-UP.md](./FOLLOW-UP.md) file with answers to the follow-up questions.
 
