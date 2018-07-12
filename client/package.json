@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
+    "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
+    "lint:js": "eslint . --ignore-path ./../.gitignore --ext .js,.jsx",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint": "npm run lint:js && npm run lint:scss"
+  },
+  "devDependencies": {
+    "backpack-react-scripts": "^5.1.1",
+    "bpk-component-text": "^1.0.54",
+    "bpk-mixins": "^17.6.1",
+    "bpk-stylesheets": "^3.2.100",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-test-renderer": "^16.3.1"
+  },
+  "proxy": "http://localhost:4000"
+}

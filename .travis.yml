@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - lts/carbon
+env:
+  global:
+    - NPM_CONFIG_LOGLEVEL=warn
+cache:
+  directories:
+    - "node_modules"
+branches:
+  only:
+    - master
+script:
+    - npm test

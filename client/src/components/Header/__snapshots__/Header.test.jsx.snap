@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<header
+  className="Header"
+>
+  <a
+    href="/"
+  >
+    <span
+      className="Header__hidden-text"
+    >
+      Skyscanner
+    </span>
+    <img
+      alt="Skyscanner"
+      className="Header__logo-image"
+      src="logo.svg"
+    />
+  </a>
+</header>
+`;

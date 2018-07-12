@@ -1,8 +1,8 @@
-# Skyscanner Full-Stack Recruitment test
+# Skyscanner full-stack recruitment test
 
-Thanks for taking the time to do our frontend / full-stack coding test. The challenge has two parts:
+Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
 
-1) a [task](#task) to create a basic flight search frontend, and backend client that speaks to our 'live pricing' api
+1) a [task](#task) to create a basic flight search front-end, and back-end client that speaks to our 'live pricing' API.
 
 2) some [follow-up questions](./FOLLOW-UP.md)
 
@@ -22,7 +22,7 @@ Feel free to spend as much or as little time as you'd like, as long as the follo
 
 - Use our 'live pricing' API to find **return flights from Edinburgh to London, departing next Monday and returning the following day**.
 
-- We've provided a basic api client in Node.js - see the api section below. You can build this out, copy from it, or roll your own.
+- We've provided a basic API client in Node.js - see the API section below. You can build this out, copy from it, or roll your own.
 
 - Use the returned data to display a page of results that matches the given design.
 
@@ -32,7 +32,7 @@ We've provided a [design](./designs/) for small-screens (480px). Don't worry abo
 
 Don't worry about implementing menu functionality or sorting/filtering/alerting - these controls can be display-only.
 
-The design shows a look and feel defined in our [styleguide](http://backpack.prod.aws.skyscnr.com/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](http://backpack.prod.aws.skyscnr.com/sassdoc/) that may help.
+The design shows a look and feel defined in our [styleguide](https://backpack.github.io/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](https://backpack.github.io/sassdoc/) that may help.
 
 **NB:** You don't have to use our styleguide or our components -- picking colours from the image and rolling your own css to save time is absolutely fine.
 
@@ -40,15 +40,15 @@ For the airline logos, try the favicon size per code: e.g. https://logos.skyscnr
 
 ## Client implementation
 
-We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever frontend libraries you feel comfortable with.
+We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever front-end libraries you feel comfortable with.
 
-We've set you up with a build based on Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app). To run the client:
+We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app). To run the client:
 
 - `npm install` (once)
 
 - `npm run client` to start the client development build at [http://localhost:3000](http://localhost:3000)
 
-We've wired in [SASS](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`TopNav`](./client/src/components/topnav/TopNav.js) component for example use.
+We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
 ## API implementation
 
@@ -56,21 +56,21 @@ We're hitting a real Skyscanner API in this test, and have provided a basic - bu
 
 The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a couple of routes. To run the server:
 
-- `APIKEY=<key> npm run server` in your terminal; it listens at [http://localhost:4000](http://localhost:4000)
+- `APIKEY=<key> npm run server` in your terminal; it listens at [http://localhost:4000](http://localhost:4000).
 
-- (If running on Windows, do `set APIKEY=<key> && npm run server` in the command prompt)
+- (If running on Windows, do `set APIKEY=<key> && npm run server` in the command prompt).
 
-**NB:** If you'd prefer not to use Node, that's fine. Feel free to copy from it, or roll your own.
+**NB:** If you'd prefer not to use Node.js, that's fine. Feel free to copy from it, or roll your own.
 
 The underlying Skyscanner [API documentation is available here](https://skyscanner.github.io/slate/#flights-live-prices) and a [test harness is provided](http://business.skyscanner.net/portal/en-GB/Documentation/FlightsLivePricingQuickStart) for you to try queries out.
 
 You can use the Skyscanner `sky` location schema, and the `EDI-sky` and `LOND-sky` placenames in your query.
 
-**NB:** You should ensure the [http://localhost:4000/api/search](http://localhost:4000/api/search) route accepts parameters from your frontend, and returns results to the frontend in an appropriate format.
+**NB:** You should ensure the [http://localhost:4000/api/search](http://localhost:4000/api/search) route accepts parameters from your front end, and returns results to the front end in an appropriate format.
 
 The API will return collections of different items:
 
-* **Itineraries** - These are the container for your trips, tying together **Legs**, and **prices**. Prices are offered by an **agent** - an airline or travel agent.
+* **Itineraries** - These are the containers for your trips, tying together **Legs**, and **prices**. Prices are offered by an **agent** - an airline or travel agent.
 
 * **Legs** - These are journeys (outbound, return) with **duration**, and **carriers**<sup>[1](#footnote1)</sup>. These contain one or more **Segments** and **stops**.
 
