@@ -1,3 +1,6 @@
+/* eslint-disable no-console */
+// Disabling 'no-console' as it's reasonable for this file to do some logging.
+
 const express = require('express');
 
 const app = express();

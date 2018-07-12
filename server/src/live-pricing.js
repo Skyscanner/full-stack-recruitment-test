@@ -1,3 +1,7 @@
+/* eslint-disable no-console */
+// Disabling 'no-console' as it's reasonable for this file to do some logging.
+
+
 const _ = require('lodash');
 const fetch = require('node-fetch');
 const querystring = require('querystring');
@@ -60,7 +64,7 @@ const createSession = (params) => {
         }
 
         // session created
-        _.delay(() => resolve({
+        return _.delay(() => resolve({
           location: response.headers.get('location'),
           response: response.json(),
         }), pollDelay);
@@ -71,24 +75,24 @@ const createSession = (params) => {
 
 const pollSuccess = (state, data) => {
   if (state.finished) {
-    return;
+    return null;
   }
 
   if (data.Status === 'UpdatesComplete' || state.timedOut) {
     console.log('polling complete');
-    state.finished = true;
+    state.finished = true; // eslint-disable-line no-param-reassign
     return state.onFinished(data);
   }
-  state.repoll();
+  return state.repoll();
 };
 
 // Not implemented: error handling by response code
 const pollError = (state, err) => {
-  state.tries++;
+  state.tries += 1; // eslint-disable-line no-param-reassign
   if (!state.timedOut && state.tries < maxRetries) {
     return state.repoll();
   }
-  state.onError(err);
+  return state.onError(err);
 };
 
 const poll = (state) => {

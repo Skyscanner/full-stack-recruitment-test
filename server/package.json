@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo 'there are no server tests yet...'",
+    "test": "echo 'There are no server tests yet...'",
     "lint:fix": "npm run lint -- --fix",
     "lint": "eslint . --ignore-path ./../.gitignore"
   },
