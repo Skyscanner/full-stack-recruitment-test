@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "lodash": "^4.17.5",
     "node-fetch": "^2.1.2"
   }
 }
