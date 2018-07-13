@@ -1,0 +1,20 @@
+@import '~bpk-mixins';
+
+.Header {
+  display: flex;
+  padding: $bpk-spacing-sm;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bpk-color-white;
+
+  @include bpk-box-shadow-sm;
+
+  &__hidden-text {
+    @include bpk-visually-hidden;
+  }
+
+  &__logo-image {
+    height: $bpk-spacing-base;
+    vertical-align: top;
+  }
+}
