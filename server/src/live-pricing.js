@@ -34,7 +34,7 @@ const createSession = async (params) => {
     });
     if (response.status !== STATUS_CODES.CREATED) {
       const json = await response.json();
-      throw json;
+      throw new Error(JSON.stringify(json));
     }
     console.log('Session created.');
     // Location header contains URL to poll for results.
