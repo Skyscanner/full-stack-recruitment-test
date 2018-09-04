@@ -17,14 +17,9 @@ const formatParams = params => querystring.stringify({
   country: 'UK',
   currency: 'GBP',
   locale: 'en-GB',
-  locationschema: 'Sky',
+  locationSchema: 'Sky',
   apiKey: config.apiKey,
-  adults: params.adults,
-  cabinclass: params.class,
-  destinationplace: params.toPlace,
-  inbounddate: params.toDate,
-  originplace: params.fromPlace,
-  outbounddate: params.fromDate,
+  ...params,
 });
 
 const createSession = async (params) => {
@@ -39,13 +34,13 @@ const createSession = async (params) => {
     });
     if (response.status !== STATUS_CODES.CREATED) {
       const json = await response.json();
-      throw new Error(json);
+      throw json;
     }
     console.log('Session created.');
     // Location header contains URL to poll for results.
     return response.headers.get('location');
   } catch (err) {
-    throw new Error(err);
+    throw err;
   }
 };
 
@@ -66,7 +61,7 @@ const poll = async (location) => {
     cache = body;
     return body;
   } catch (err) {
-    throw new Error(err);
+    throw err;
   }
 };
 
@@ -78,7 +73,7 @@ const getResults = async (location) => {
     }
     return await getResults(location);
   } catch (err) {
-    throw new Error(err);
+    throw err;
   }
 };
 
@@ -87,7 +82,7 @@ const search = async (params) => {
     const locationToPoll = await createSession(params);
     return await getResults(locationToPoll);
   } catch (err) {
-    throw new Error(err);
+    throw err;
   }
 };
 
