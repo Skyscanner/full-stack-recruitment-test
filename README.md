@@ -80,9 +80,11 @@ Your key will be rate-limited to ~5 queries per minute.
 
 ## Running the project
 
-The project is configured to run in docker using docker-compose to connect the client and server containers.
+The project is configured to run in [Docker](https://docs.docker.com/get-started/) using [Docker Compose](https://docs.docker.com/compose/gettingstarted/) to connect the client and server containers.
 
 - `APIKEY=<key> docker-compose up --build`
+
+Feel free to develop the project as you want (in or out of Docker), but please ensure that the project works as expected inside Docker when you're ready to submit.
 
 ## Submission Guidelines
 
