@@ -82,9 +82,7 @@ Your key will be rate-limited to ~5 queries per minute.
 
 The project is configured to run in docker using docker-compose to connect the client and server containers.
 
-- `APIKEY= docker-compose up --build`
-
-Note: you'll need to include your API key in the .env file
+- `APIKEY=<key> docker-compose up --build`
 
 ## Submission Guidelines
 
