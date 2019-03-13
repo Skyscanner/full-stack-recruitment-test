@@ -13,13 +13,28 @@
     "lint": "npm run lint:js && npm run lint:scss"
   },
   "devDependencies": {
-    "backpack-react-scripts": "^5.1.1",
-    "bpk-component-text": "^1.0.54",
-    "bpk-mixins": "^17.6.1",
-    "bpk-stylesheets": "^3.2.100",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-test-renderer": "^16.3.1"
+    "babel-eslint": "^8.2.6",
+    "backpack-react-scripts": "^7.0.0",
+    "bpk-component-text": "^1.0.108",
+    "bpk-mixins": "^17.16.1",
+    "bpk-stylesheets": "^3.2.155",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-skyscanner": "^3.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-test-renderer": "^16.4.2",
+    "stylelint": "^8.4.0",
+    "stylelint-config-skyscanner": "^1.0.1"
   },
-  "proxy": "http://localhost:4000"
+  "proxy": "http://localhost:4000",
+  "browserslist": [
+    ">0.1%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ]
 }
