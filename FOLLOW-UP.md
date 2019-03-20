@@ -4,7 +4,7 @@
 
 ### Q) What is the command to start the server?
 
-(Default) `APIKEY=<key> npm run server`
+(Default) `APIKEY=<key> docker-compose up --build`
 
 ---
 

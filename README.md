@@ -42,11 +42,7 @@ For the airline logos, try the favicon size per code: e.g. https://logos.skyscnr
 
 We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever front-end libraries you feel comfortable with.
 
-We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app). To run the client:
-
-- `npm install` (once)
-
-- `npm run client` to start the client development build at [http://localhost:3000](http://localhost:3000)
+We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app).
 
 We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
@@ -55,10 +51,6 @@ We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-styl
 We're hitting a real Skyscanner API in this test, and have provided a basic - but incomplete - Node.js client on top of it to make things easier for you.
 
 The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a couple of routes. To run the server:
-
-- `APIKEY=<key> npm run server` in your terminal; it listens at [http://localhost:4000](http://localhost:4000).
-
-- (If running on Windows, do `set APIKEY=<key> && npm run server` in the command prompt).
 
 **NB:** If you'd prefer not to use Node.js, that's fine. Feel free to copy from it, or roll your own.
 
@@ -85,6 +77,14 @@ Itineraries
 ```
 
 Your key will be rate-limited to ~5 queries per minute.
+
+## Running the project
+
+The project is configured to run in [Docker](https://docs.docker.com/get-started/) using [Docker Compose](https://docs.docker.com/compose/gettingstarted/) to connect the client and server containers.
+
+- `APIKEY=<key> docker-compose up --build`
+
+Feel free to develop the project as you want (in or out of Docker), but please ensure that the project works as expected inside Docker when you're ready to submit.
 
 ## Submission Guidelines
 

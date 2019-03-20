@@ -6,7 +6,7 @@
 const { APIKEY } = process.env;
 
 if (!APIKEY) {
-  console.error('APIKEY environment variable missing. Please re-run with `APIKEY=<key> npm run server`');
+  console.error('APIKEY environment variable missing. Please re-run with `APIKEY=<key> docker-compose up`');
   process.exit(1);
 }
 
