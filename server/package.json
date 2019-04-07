@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo 'There are no server tests yet...'",
+    "test": "jest --coverage",
     "lint:fix": "npm run lint -- --fix",
     "lint": "eslint . --ignore-path ./../.gitignore"
   },
@@ -15,7 +15,8 @@
     "eslint-config-skyscanner": "^3.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1"
   },
   "dependencies": {
     "express": "^4.16.3",

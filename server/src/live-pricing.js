@@ -3,11 +3,11 @@
 
 const fetch = require('node-fetch');
 const querystring = require('querystring');
+const { throttle } = require('./utils');
 
 const config = require('./config');
 
 const PRICING_URL = `${config.skyscannerApi}apiservices/pricing/v1.0`;
-const POLL_DELAY = 1000;
 const STOPS = 0;
 const STATUS_CODES = {
   CREATED: 201,
@@ -47,11 +47,7 @@ const createSession = async (params) => {
 
 let cache = {};
 
-// Used to stop the API being hit too often.
-const throttle = () => new Promise(resolve => setTimeout(resolve, POLL_DELAY));
-
 const poll = async (location) => {
-  await throttle();
   console.log('Polling results..');
   try {
     const response = await fetch(`${location}?apikey=${config.apiKey}&stops=${STOPS}`);
@@ -66,9 +62,11 @@ const poll = async (location) => {
   }
 };
 
+const pollThrottled = throttle(poll);
+
 const getResults = async (location) => {
   try {
-    const response = await poll(location);
+    const response = await pollThrottled(location);
     if (response.Status && response.Status === 'UpdatesComplete') {
       return response;
     }
