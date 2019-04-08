@@ -8,6 +8,7 @@ const config = require('./config');
 
 const PRICING_URL = `${config.skyscannerApi}apiservices/pricing/v1.0`;
 const POLL_DELAY = 1000;
+const STOPS = 0;
 const STATUS_CODES = {
   CREATED: 201,
   NOT_MODIFIED: 304,
@@ -53,7 +54,7 @@ const poll = async (location) => {
   await throttle();
   console.log('Polling results..');
   try {
-    const response = await fetch(`${location}?apikey=${config.apiKey}`);
+    const response = await fetch(`${location}?apikey=${config.apiKey}&stops=${STOPS}`);
     if (response.status === STATUS_CODES.NOT_MODIFIED) {
       return cache;
     }

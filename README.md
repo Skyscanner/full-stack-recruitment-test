@@ -20,7 +20,7 @@ Feel free to spend as much or as little time as you'd like, as long as the follo
 
 ## Task
 
-- Use our 'live pricing' API to find **return flights from Edinburgh to London, departing next Monday and returning the following day**.
+- Use our 'live pricing' API to find **direct return flights from Edinburgh to London, departing next Monday and returning the following day**.
 
 - We've provided a basic API client in Node.js - see the API section below. You can build this out, copy from it, or roll your own.
 
