@@ -1,3 +1,6 @@
+/**
+ * The test below is a sample Jest test to get you started.
+ */
 test('a simple starter test', async (done) => {
   const finished = [];
   const testFun = (x1, x2) => {
