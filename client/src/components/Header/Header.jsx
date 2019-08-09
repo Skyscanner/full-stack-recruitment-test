@@ -11,7 +11,6 @@ const Header = () => (
       <span className={getClassName('Header__hidden-text')}>Skyscanner</span>
       <img className={getClassName('Header__logo-image')} alt="Skyscanner" src={logo} />
     </a>
-    {/* TODO burger menu icon */}
   </header>
 );
 
