@@ -8,7 +8,7 @@ Thanks for taking the time to do our front-end / full-stack coding test. The cha
 
 ----
 
-Feel free to spend as much or as little time as you'd like, as long as the following have been met:
+You will be graded based on the following have been met:
 
 * Your implementation works as described in the [task](#task).
 
@@ -61,7 +61,7 @@ Itineraries
 
 ## Running the project
 
-To startup the frontend client and server run the following command to run the solution in the background
+To startup the frontend client and server run the following command to run the solution in the background.
 
 `npm start`
 
