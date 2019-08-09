@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 */
 app.get('/api/search', async (req, res) => {
   try {
-    // TODO - retrieve the results from the provided flight-results.json
+    // TODO - retrieve the results from the provided flight.json link
 
     // TODO - a better format for displaying results to the client
     console.log('TODO: transform results for consumption by client');

@@ -18,7 +18,7 @@ You will be graded based on the following have been met:
 
 ## Task
 
-- Fetch flight results from the provided `flight-results.json` and format them into client readable results.
+- Fetch flight results from ` https://s3-eu-west-1.amazonaws.com/skyscanner-prod-takehome-test/flights.json` and format them into client readable results.
 
 - Use the returned data to display a page of results that matches the given design.
 
@@ -40,11 +40,11 @@ We've set you up with a build based on [our custom fork](https://backpack.github
 
 We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
-## API implementation
+## Backend implementation
 
 We've provided a basic - but incomplete - Node.js client located in the `server` folder.
 
-The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a couple of routes. To run the server:
+The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a premade endpoint. To run the server:
 
 The server endpoint will return collections of different items:
 
@@ -67,6 +67,7 @@ To startup the frontend client and server run the following command to run the s
 
 ## Submission Guidelines
 
+### `TODO: Update with the hired platform submission steps`
 * The zip file should be named {yourname}.zip, and should itself contain the full-stack-recruitment-test project folder with your submission.
 
 * The zip file should contain the [FOLLOW-UP.md](./FOLLOW-UP.md) file with answers to the follow-up questions.
