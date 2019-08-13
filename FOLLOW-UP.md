@@ -2,7 +2,7 @@
 
 ### Q) What libraries did you add to the frontend? What are they used for?
 
-### Q) What is the command to start the server?
+### Q) What is the command to start the application?
 
 (Default) `npm start`
 

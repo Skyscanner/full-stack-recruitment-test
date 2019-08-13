@@ -2,7 +2,7 @@
 
 Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
 
-1) a [task](#task) to create a basic flight results front-end, and back-end client that gets flight prices to provide the frontend.
+1) a [task](#task) to create a basic flight results front-end site to show flight prices
 
 2) some [follow-up questions](./FOLLOW-UP.md)
 
@@ -40,13 +40,9 @@ We've set you up with a build based on [our custom fork](https://backpack.github
 
 We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
-## Backend implementation
+## Flight results
 
-We've provided a basic - but incomplete - Node.js client located in the `server` folder.
-
-The [`server.js`](./server/src/server.js) file starts an [Express](https://expressjs.com/) server with a premade endpoint. To run the server:
-
-The server endpoint will return collections of different items:
+The provided `flights` `json` will return two collections of different items:
 
 * **Itineraries** - These are the containers for your trips, tying together **Legs**, and **prices**. Prices are offered by an **agent** - an airline or travel agent.
 
@@ -61,7 +57,7 @@ Itineraries
 
 ## Running the project
 
-To startup the frontend client and server run the following command to run the solution in the background.
+To startup the frontend client run the following command.
 
 `npm start`
 

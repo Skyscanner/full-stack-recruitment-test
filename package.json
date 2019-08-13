@@ -8,12 +8,10 @@
   "version": "1.0.0",
   "description": "Skyscanner full-stack recruitment test.",
   "scripts": {
-    "install": "(cd ./client && npm install) && (cd ./server && npm install)",
-    "client": "(cd ./client && npm start)",
+    "install": "(cd ./client && npm install)",
     "build": "(cd ./client && npm run build)",
-    "server": "(cd ./server && npm start)",
-    "pretest": "(cd ./client && npm run lint) && (cd ./server && npm run lint)",
-    "test": "(cd ./client && CI=true npm test) && (cd ./server && CI=true npm test)",
-    "start": "(cd ./client && npm start &) && (cd ./server && npm start &)"
+    "pretest": "(cd ./client && npm run lint)",
+    "test": "(cd ./client && CI=true npm test)",
+    "start": "cd ./client && npm start"
   }
 }
