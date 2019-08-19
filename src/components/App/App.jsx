@@ -11,6 +11,9 @@ const App = () => (
     <Header />
     <main className={getClassName('App__main')}>
       <BpkText tagName="p">Over to you...</BpkText>
+      {/* TODO: Add an information blue header component here */}
+
+      {/* TODO: Add a component to display results here */}
     </main>
   </div>
 );
