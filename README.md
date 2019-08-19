@@ -18,7 +18,7 @@ You will be graded based on the following have been met:
 
 ## Task
 
-- Fetch flight results from ` https://s3-eu-west-1.amazonaws.com/skyscanner-prod-takehome-test/flights.json` and format them into client readable results.
+- Fetch flight results from the provided `flights.json` and format them into client readable results.
 
 - Use the returned data to display a page of results that matches the given design.
 
