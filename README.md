@@ -18,6 +18,8 @@ You will be graded based on the following have been met:
 
 ## Task
 
+We have placed a number of helpful todos inside the code to help get you started, the main items we are looking for are:
+
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
 
 - Use the returned data to display a page of results that matches the given design.
@@ -59,7 +61,10 @@ Itineraries
 
 To startup the frontend client run the following command.
 
-`npm start`
+`npm start` - This will start the application for development
+`npm run build` - Will create a production optimised build
+`npm test` - Will run the front end tests
+`npm run lint` - Will run the code through our linting rules
 
 ## Submission Guidelines
 
