@@ -48,7 +48,7 @@ The provided `flights` `json` will return two collections of different items:
 
 * **Itineraries** - These are the containers for your trips, tying together **Legs**, and **prices**. Prices are offered by an **agent** - an airline or travel agent.
 
-* **Legs** - These are journeys (outbound, return) with **duration**, and **carriers**<sup>[1](#footnote1)</sup>. These contain one or more **Segments** and **stops**.
+* **Legs** - These are journeys (outbound, return) with **duration**, **stops** and **airlines**.
 
 A good structure to represent trip options would be hierarchical:
 
@@ -61,10 +61,10 @@ Itineraries
 
 To startup the frontend client run the following command.
 
-`npm start` - This will start the application for development
-`npm run build` - Will create a production optimised build
-`npm test` - Will run the front end tests
-`npm run lint` - Will run the code through our linting rules
+* `npm start` - This will start the application for development
+* `npm run build` - Will create a production optimised build
+* `npm test` - Will run the front end tests
+* `npm run lint` - Will run the code through our linting rules
 
 ## Submission Guidelines
 
@@ -77,7 +77,5 @@ To startup the frontend client run the following command.
 
 
 ----
-
-<a name="footnote1">[1]</a>: If there are multiple carriers provided, please use the first carrier
 
 Inspiration for the test format taken with ❤️ from [JustEat's recruitment test](https://github.com/justeat/JustEat.RecruitmentTest).
