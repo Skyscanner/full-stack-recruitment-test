@@ -18,7 +18,7 @@ You will be graded based on the following have been met:
 
 ## Task
 
-We have placed a number of helpful todos inside the code to help get you started, the main items we are looking for are:
+We have placed a number of helpful todos inside the code (see `index.js` and `App.jsx`) to help get you started, the main items we are looking for are:
 
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
 

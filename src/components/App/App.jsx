@@ -9,7 +9,6 @@ const getClassName = className => STYLES[className] || 'UNKNOWN';
 const App = () => (
   <div className={getClassName('App')}>
     <Header />
-    {/* TODO: Add an information blue header component here */}
     <main className={getClassName('App__main')}>
       <BpkText tagName="p">Over to you...</BpkText>
       {/* TODO: Add a component to display results here */}
