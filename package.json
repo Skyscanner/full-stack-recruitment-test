@@ -1,8 +1,8 @@
 {
   "private": true,
   "engines": {
-    "node": "^8.12.0",
-    "npm": "^6.4.1"
+    "node": "^12.10.0",
+    "npm": "^6.10.3"
   },
   "name": "full-stack-recruitment-test",
   "version": "1.0.0",
@@ -18,21 +18,21 @@
     "lint": "npm run lint:js && npm run lint:scss"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "backpack-react-scripts": "^7.0.0",
-    "bpk-component-text": "^1.2.1",
-    "bpk-mixins": "^18.2.1",
-    "bpk-stylesheets": "^3.4.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-skyscanner": "^3.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-test-renderer": "^16.4.2",
-    "stylelint": "^8.4.0",
+    "babel-eslint": "^10.0.3",
+    "backpack-react-scripts": "^7.0.2",
+    "bpk-component-text": "^2.0.17",
+    "bpk-mixins": "^19.0.17",
+    "bpk-stylesheets": "^4.0.17",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-skyscanner": "^4.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-test-renderer": "^16.11.0",
+    "stylelint": "^11.1.1",
     "stylelint-config-skyscanner": "^1.0.1"
   },
   "browserslist": [
