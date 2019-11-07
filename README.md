@@ -21,9 +21,10 @@ You will be graded based on the following have been met:
 We have placed a number of helpful todos inside the code (see `index.js` and `App.jsx`) to help get you started, the main items we are looking for are:
 
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
-  - Here it is ok to use either `fetch` or just read the object from the file.
+  - You are not required to serve this separately from the dev server (i.e. `npm start`).
 
 - Use the returned data to display a page of results that matches the given design.
+  - Times should be displayed in 24 hour format.
 
 ## Design
 
