@@ -10,4 +10,3 @@ describe('Header', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

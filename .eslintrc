@@ -1,5 +1,5 @@
 {
-  "extends": "skyscanner",
+  "extends": "skyscanner-with-prettier",
   "env": {
     "browser": true,
     "jest": true
