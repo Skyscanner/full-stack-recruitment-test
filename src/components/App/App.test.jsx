@@ -18,4 +18,3 @@ describe('App', () => {
     expect(renderer.getRenderOutput()).toMatchSnapshot();
   });
 });
-

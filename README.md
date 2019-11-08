@@ -21,12 +21,14 @@ You will be graded based on the following have been met:
 We have placed a number of helpful todos inside the code (see `index.js` and `App.jsx`) to help get you started, the main items we are looking for are:
 
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
+  - You are not required to serve this separately from the dev server (i.e. `npm start`).
 
 - Use the returned data to display a page of results that matches the given design.
+  - Times should be displayed in 24 hour format.
 
 ## Design
 
-We've provided a [design](./designs/) for small-screens (480px). Don't worry about tackling larger breakpoints, but **please make sure your solution looks good at 480px in portrait orientation**.
+We've provided a [design](./designs/results-small.png) for small-screens (480px). Don't worry about tackling larger breakpoints, but **please make sure your solution looks good at 480px in portrait orientation**.
 
 The design shows a look and feel defined in our [styleguide](https://backpack.github.io/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](https://backpack.github.io/sassdoc/) that may help.
 
