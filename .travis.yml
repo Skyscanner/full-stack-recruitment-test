@@ -10,5 +10,6 @@ cache:
 branches:
   only:
     - master
+    - /^greenkeeper/.*$/
 script:
     - npm test
