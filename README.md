@@ -1,6 +1,6 @@
 # Skyscanner full-stack recruitment test
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Skyscanner/full-stack-recruitment-test.svg)](https://greenkeeper.io/)
+
 
 Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
 
