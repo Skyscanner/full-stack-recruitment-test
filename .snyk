@@ -1,0 +1,718 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - backpack-react-scripts > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @babel/core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > fork-ts-checker-webpack-plugin-alt > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > html-webpack-plugin > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > node-sass > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > eslint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > eslint-plugin-backpack > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > postcss-sorting > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-order > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-scss > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > node-sass > sass-graph > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > eslint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > eslint > inquirer > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > doiuse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-order > postcss-sorting > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > webpack-dev-server > portfinder > async > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > node-sass > gaze > globule > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > doiuse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > doiuse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > table > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylefmt > stylelint-order > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint-config-skyscanner > stylelint-declaration-strict-value > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - eslint-config-skyscanner-with-prettier > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-resolve-dependencies > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @svgr/core > h2x-core > h2x-parse > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
+    - backpack-react-scripts > jest > jest-cli > jest-runner > jest-runtime > jest-config > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-07T07:29:22.146Z'
