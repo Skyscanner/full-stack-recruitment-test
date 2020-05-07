@@ -15,7 +15,9 @@
     "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
     "lint:js": "eslint . --ignore-path ./.gitignore --ext .js,.jsx",
     "lint:js:fix": "npm run lint:js -- --fix",
-    "lint": "npm run lint:js && npm run lint:scss"
+    "lint": "npm run lint:js && npm run lint:scss",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -29,7 +31,7 @@
     "react-dom": "^16.11.0",
     "react-test-renderer": "^16.11.0",
     "stylefmt": "^6.0.3",
-    "stylelint": "^11.1.1",
+    "stylelint": "^13.0.0",
     "stylelint-config-skyscanner": "^1.0.1"
   },
   "browserslist": [
@@ -37,5 +39,9 @@
     "not dead",
     "not ie <= 10",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.319.1"
+  }
 }
