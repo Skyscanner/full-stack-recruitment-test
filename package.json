@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test",
+    "test": "npm run lint && CI=true react-scripts test",
     "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
     "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
     "lint:js": "eslint . --ignore-path ./.gitignore --ext .js,.jsx",
@@ -19,7 +19,7 @@
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\""
   },
   "devDependencies": {
-    "backpack-react-scripts": "^7.0.2",
+    "@skyscanner/backpack-react-scripts": "^8.0.2",
     "bpk-component-text": "^3.1.18",
     "bpk-mixins": "^20.1.0",
     "bpk-stylesheets": "^6.0.50",
