@@ -9,10 +9,11 @@ exports[`App should render correctly 1`] = `
     className="App__main"
   >
     <BpkText
-      bold={false}
+      bold={null}
       className={null}
       tagName="p"
       textStyle="base"
+      weight="regular"
     >
       Over to you...
     </BpkText>
