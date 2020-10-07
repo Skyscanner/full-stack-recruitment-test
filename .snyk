@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@skyscanner/backpack-react-scripts > @babel/core > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > html-webpack-plugin > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > node-sass > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > webpack-manifest-plugin > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > node-sass > sass-graph > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > react-dev-utils > inquirer > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - stylelint-config-skyscanner > stylelint > @stylelint/postcss-css-in-js > @babel/core > lodash:
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > node-sass > gaze > globule > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > webpack-dev-server > portfinder > async > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/types > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
+    - '@skyscanner/backpack-react-scripts > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash':
+        patched: '2020-10-07T12:07:30.522Z'
