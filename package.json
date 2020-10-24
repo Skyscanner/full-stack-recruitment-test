@@ -19,7 +19,7 @@
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\""
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^8.0.2",
+    "@skyscanner/backpack-react-scripts": "^8.0.3",
     "bpk-component-text": "^3.1.18",
     "bpk-mixins": "^20.1.0",
     "bpk-stylesheets": "^6.0.50",
