@@ -1,0 +1,28 @@
+name: Full Stack Test CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: nvm install
+        run: nvm install
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Test
+        run: |
+          nvm use
+          npm test
