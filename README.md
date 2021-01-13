@@ -8,14 +8,18 @@ Thanks for taking the time to do our front-end / full-stack coding test. The cha
 
 ----
 
-You will be graded based on if the following have been met:
+The time limit for this test is **4 hours**.
 
-* Your implementation works as described in the [task](#task).
-
-* Code quality and style.
+We don't encourage spending more time than the suggested above, but we do encourage you to use the 4 hours to your advantage.
+The goal is not to finish the whole project, some will, and some will not, just have fun and do your best in 4 hours.
 
 ----
 
+You will be graded based on if the following have been met:
+
+* Your implementation works as described in the [task](#task) even if incomplete, what you deliver must work.
+
+* Code quality and style.
 
 
 ## Task
