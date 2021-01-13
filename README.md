@@ -1,6 +1,11 @@
 # Dashfy full-stack recruitment test
 
-Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
+Thank you for taking the time to do our front-end / full-stack coding test. This will help us better understand you skills
+and experience, so use this chance to show us a bit about you and what you can do.
+
+----
+
+The challenge has two parts:
 
 1) a [task](#task) to create a basic job candidate front-end site to show a candidate list and their profiles.
 
@@ -36,8 +41,6 @@ We have placed a number of helpful todo's inside the code (see `index.js` and `A
 - Create a profile page to display all the information in the `data.json` file for a single candidate.
 
 - Clicking on any of the candidates in the list page, should take us to the candidate profile page.
-
-- Once done, create a Pull Request from your fork to our base repository and let your recruiter know your are done.
 
 
 ### Extras
@@ -78,9 +81,9 @@ To startup the frontend client run the following command.
 
 ## Submission Guidelines
 
-* The zip file should be named {yourname}.zip, and should itself contain the full-stack-recruitment-test project folder with your submission.
+Once complete please do the following:
+- Create a Pull Request from your fork to our base repository.
+- Let your recruiter know your are done
 
-* The zip file should contain the [FOLLOW-UP.md](./FOLLOW-UP.md) file with answers to the follow-up questions.
 
-* The zip file should **not** include the `node_modules` folder.
 
