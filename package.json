@@ -6,11 +6,11 @@
   },
   "name": "full-stack-recruitment-test",
   "version": "1.0.0",
-  "description": "Skyscanner full-stack recruitment test.",
+  "description": "Dashfy full-stack recruitment test.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run lint && CI=true react-scripts test",
+    "test": "react-scripts test -u",
     "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
     "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
     "lint:js": "eslint . --ignore-path ./.gitignore --ext .js,.jsx",
@@ -20,9 +20,6 @@
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^8.0.2",
-    "bpk-component-text": "^3.1.18",
-    "bpk-mixins": "^20.1.0",
-    "bpk-stylesheets": "^6.0.50",
     "eslint-config-skyscanner": "^7.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
