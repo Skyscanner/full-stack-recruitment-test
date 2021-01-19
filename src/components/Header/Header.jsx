@@ -3,7 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import STYLES from './Header.scss';
 
-const getClassName = className => STYLES[className] || 'UNKNOWN';
+const getClassName = (className) => STYLES[className] || 'UNKNOWN';
 
 const Header = () => (
   <header className={getClassName('Header')}>
