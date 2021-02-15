@@ -10,24 +10,16 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run lint && CI=true react-scripts test",
-    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
-    "lint:scss:fix": "stylelint 'src/**/*.scss' --fix",
-    "lint:js": "eslint . --ignore-path ./.gitignore --ext .js,.jsx",
-    "lint:js:fix": "npm run lint:js -- --fix",
-    "lint": "npm run lint:js && npm run lint:scss",
-    "prettier": "prettier --config .prettierrc --write \"**/*.{js,jsx}\""
+    "test": "CI=true react-scripts test"
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
     "bpk-component-text": "^3.1.35",
     "bpk-mixins": "^20.1.17",
     "bpk-stylesheets": "^6.0.67",
-    "eslint-config-skyscanner": "^8.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-test-renderer": "^16.11.0",
-    "stylelint-config-skyscanner": "^3.0.3"
+    "react-test-renderer": "^16.11.0"
   },
   "browserslist": [
     ">0.1%",

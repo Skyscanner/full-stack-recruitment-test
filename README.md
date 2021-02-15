@@ -68,7 +68,6 @@ To startup the frontend client run the following command.
 * `npm start` - This will start the application for development
 * `npm run build` - Will create a production optimised build
 * `npm test` - Will run the front end tests
-* `npm run lint` - Will run the code through our linting rules
 
 ## Submission Guidelines
 
