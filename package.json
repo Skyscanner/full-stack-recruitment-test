@@ -10,8 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test",
-    "test:windows": "cross-env CI=true react-scripts test"
+    "test": "cross-env CI=true react-scripts test"
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
