@@ -1,7 +1,5 @@
 # Skyscanner full-stack recruitment test
 
-
-
 Thanks for taking the time to do our front-end / full-stack coding test. The challenge has two parts:
 
 1) a [task](#task) to create a basic flight results front-end site to show flight prices
@@ -17,6 +15,24 @@ You will be graded based on the following have been met:
 * Your solution looks like the provided [design](#design).
 
 ----
+
+## Prerequisites/Environment Setup
+
+### Installing Node
+
+The full stack test is developed using Node, using the following versions:
+
+  **Node:** `LTS/Erbium (^12.13.0)`
+
+  **npm:** `^6.12.0`
+
+If you use the latest versions of node and npm its recommended to use [nvm](https://github.com/nvm-sh/nvm) or [nave](https://github.com/isaacs/nave) to manage your Node environment on **Unix** systems. If you use **Windows** then its recommended to use [nvm-windows](https://github.com/coreybutler/nvm-windows) to manage your Node environment.
+
+To install the correct npm version, use `npm install --global npm@^6.12.0`.
+
+To install the correct node version, use `nvm install lts/erbium`.
+
+The full stack test has built-in support for these. Just run `nvm use` or `nave auto` to select the correct Node version.
 
 ## Task
 
@@ -68,6 +84,7 @@ To startup the frontend client run the following command.
 * `npm start` - This will start the application for development
 * `npm run build` - Will create a production optimised build
 * `npm test` - Will run the front end tests
+* `npm test:windows` - Will run the front end tests on Windows.
 
 ## Submission Guidelines
 
