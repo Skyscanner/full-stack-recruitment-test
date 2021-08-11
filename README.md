@@ -26,7 +26,7 @@ The full stack test is developed using Node, using the following versions:
 
   **npm:** `^6.12.0`
 
-If you use the latest versions of node and npm its recommended to use [nvm](https://github.com/nvm-sh/nvm) or [nave](https://github.com/isaacs/nave) to manage your Node environment on **Unix** systems. If you use **Windows** then its recommended to use [nvm-windows](https://github.com/coreybutler/nvm-windows) to manage your Node environment.
+We recommend using [nvm](https://github.com/nvm-sh/nvm) or [nave](https://github.com/isaacs/nave) to manage your Node environment on **Unix/macOS** systems. If you use **Windows** then we recommend using [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
 To install the correct npm and node version for the project, use `nvm install` or `nave install`.
 
