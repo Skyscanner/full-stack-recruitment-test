@@ -10,13 +10,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test"
+    "test": "cross-env CI=true react-scripts test"
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
-    "bpk-component-text": "^3.1.35",
-    "bpk-mixins": "^20.1.17",
-    "bpk-stylesheets": "^6.0.67",
+    "bpk-component-text": "^4.0.8",
+    "bpk-mixins": "^22.0.1",
+    "bpk-stylesheets": "^7.0.7",
+    "cross-env": "^7.0.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-test-renderer": "^16.11.0"
