@@ -28,9 +28,7 @@ The full stack test is developed using Node, using the following versions:
 
 If you use the latest versions of node and npm its recommended to use [nvm](https://github.com/nvm-sh/nvm) or [nave](https://github.com/isaacs/nave) to manage your Node environment on **Unix** systems. If you use **Windows** then its recommended to use [nvm-windows](https://github.com/coreybutler/nvm-windows) to manage your Node environment.
 
-To install the correct npm version, use `npm install --global npm@^6.12.0`.
-
-To install the correct node version, use `nvm install lts/erbium`.
+To install the correct npm and node version for the project, use `nvm install` or `nave install`.
 
 The full stack test has built-in support for these. Just run `nvm use` or `nave auto` to select the correct Node version.
 
