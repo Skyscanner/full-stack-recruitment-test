@@ -1,5 +1,5 @@
 import React from 'react';
-import BpkText from 'bpk-component-text';
+import BpkText from '@skyscanner/backpack-web/bpk-component-text';
 
 import Header from '../Header';
 

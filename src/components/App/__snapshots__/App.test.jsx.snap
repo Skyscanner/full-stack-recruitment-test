@@ -12,8 +12,8 @@ exports[`App should render correctly 1`] = `
       bold={null}
       className={null}
       tagName="p"
-      textStyle="base"
-      weight="regular"
+      textStyle="body-default"
+      weight={null}
     >
       Over to you...
     </BpkText>

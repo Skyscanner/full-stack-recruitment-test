@@ -2,10 +2,10 @@
 
 .Header {
   display: flex;
-  padding: $bpk-spacing-sm;
+  padding: bpk-spacing-base();
   justify-content: space-between;
   align-items: center;
-  background-color: $bpk-color-white;
+  background-color: $bpk-surface-default-day;
 
   @include bpk-box-shadow-sm;
 
@@ -14,7 +14,7 @@
   }
 
   &__logo-image {
-    height: $bpk-spacing-base;
+    height: bpk-spacing-lg();
     vertical-align: top;
   }
 }

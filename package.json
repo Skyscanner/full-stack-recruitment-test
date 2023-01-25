@@ -1,8 +1,8 @@
 {
   "private": true,
-  "engines": {
-    "node": "^12.10.0",
-    "npm": "^6.10.3"
+  "engines": { 
+    "node": "^16.19.0", 
+    "npm": "^8.19.3" 
   },
   "name": "full-stack-recruitment-test",
   "version": "1.0.0",
@@ -13,19 +13,27 @@
     "test": "cross-env CI=true react-scripts test"
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^9.0.2",
-    "bpk-component-text": "^4.0.8",
-    "bpk-mixins": "^22.0.1",
-    "bpk-stylesheets": "^7.0.7",
+    "@skyscanner/backpack-react-scripts": "^10.0.4",
+    "@skyscanner/backpack-web": "^17.2.0",
+    "bpk-mixins": "^37.2.1",
+    "bpk-stylesheets": "^8.1.24",
     "cross-env": "^7.0.3",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-test-renderer": "^16.11.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2"
+  },
+  "backpack-react-scripts": {
+    "babelIncludePrefixes": [
+      "@skyscanner/backpack-web"
+    ]
   },
   "browserslist": [
-    ">0.1%",
-    "not dead",
-    "not ie <= 10",
-    "not op_mini all"
+    "Android >= 96",
+    "Chrome >= 87",
+    "Edge >= 96",
+    "Firefox >= 95",
+    "Opera >= 82",
+    "Safari >= 12",
+    "Samsung >= 16"
   ]
 }

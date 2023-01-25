@@ -22,9 +22,9 @@ You will be graded based on the following have been met:
 
 The full stack test is developed using Node, using the following versions:
 
-  **Node:** `LTS/Erbium (^12.13.0)`
+  **Node:** `LTS/Hydrogen (^18.13.0)`
 
-  **npm:** `^6.12.0`
+  **npm:** `^8.19.3`
 
 We recommend using [nvm](https://github.com/nvm-sh/nvm) or [nave](https://github.com/isaacs/nave) to manage your Node environment on **Unix/macOS** systems. If you use **Windows** then we recommend using [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
