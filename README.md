@@ -22,7 +22,7 @@ You will be graded based on the following have been met:
 
 The full stack test is developed using Node, using the following versions:
 
-  **Node:** `LTS/Hydrogen (^18.13.0)`
+  **Node:** `LTS/Gallium (^16.19.0)`
 
   **npm:** `^8.19.3`
 
